@@ -1,0 +1,78 @@
+## Keyword
+
+- hexo for easily making blog
+
+- commit convention
+
+## Code & Content
+
+1. hexo 
+
+It is one of the node.js libarary like react.
+
+but It just only generate static frontend files so it can't use DB or other dynamic frontend.
+
+so when you use it, you should run `hexo clean && hexo generate` or ` hexo clean && hexo deploy`
+
+
+```shell
+
+npm install hexo # install hexo
+
+hexo generate # create blog
+
+hexo server # run server
+
+hexo new post "[Title of Post]" # create new post
+
+hexo clean && hexo generate
+
+npm install hexo-theme-next@latest
+
+npm install hexo --deployer-git --save # install deploy library
+
+hexo clean && hexo deploy # deploy
+
+```
+
+__config.yml 
+
+title : blog title
+
+subtile : blog subtitle
+
+description : it is showed at browser searching result page
+
+author : ME!!
+
+theme : we download NexT theme. so we should write "next". If you use another theme, you should write it.
+
+deply:
+	type: git
+
+	repo: github repository URL titled [username].github.io
+	
+	branch: main
+
+</br>
+</br>
+
+2. commit convention
+
+Docs : modify docs like README.md
+
+Style : modify Code style but it dosen't consider production Code.
+
+Test : Test code, ReFactoring but it doesn't changed production Code.
+
+Rename : renamed file or directory
+
+Remove : remove file or directory
+
+Feat : add New function
+
+Fix : fixed bugs
+
+
+
+
