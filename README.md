@@ -18,5 +18,19 @@ npm install hexo
 ...
 ```
 
+## Commit convention
 
+Docs : modify docs like README.md
+
+Style : modify Code style but it dosen't consider production Code.
+
+Test : Test code, ReFactoring but it doesn't changed production Code.
+
+Rename : renamed file or directory
+
+Remove : remove file or directory
+
+Feat : add New function
+
+Fix : fixed bugs
 
