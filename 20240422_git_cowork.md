@@ -1,8 +1,8 @@
-github로 하는 협업 과정
+# github로 하는 협업 과정
 
 [최영우 강사님 강의 youtube](https://www.youtube.com/watch?v=g3GEnjppUV0&feature=youtu.be)
 
-<팀장 할일>
+## <팀장 할일>
 
 1. github에서 New organization 클릭!
 
@@ -22,7 +22,7 @@ github로 하는 협업 과정
 
 --------------------------------------------------------------
 
-<팀원 할 일>
+## <팀원 할 일>
 
 1. fork 받기
 
