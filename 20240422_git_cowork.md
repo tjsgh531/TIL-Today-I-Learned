@@ -4,7 +4,7 @@ github로 하는 협업 과정
 
 <팀장 할일>
 
-1.github에서 New organization 클릭!
+1. github에서 New organization 클릭!
 
 2. free 누르면 나오는 Template 작성후 Next 버튼 클릭
 
@@ -13,6 +13,8 @@ github로 하는 협업 과정
 4. Issues Temaplates 만들기
 
 5. .gitignore 설정
+
+[gitignore 사이트](https://www.toptal.com/developers/gitignore)
 
 6. 초기 디렉토리 설정
 
@@ -25,14 +27,27 @@ github로 하는 협업 과정
 1. fork 받기
 
 2. 자신이 fork 받은 것에서 주소 받아와 clone 하기
+```shell
+git clone [자신 레포 주소]
+```
 
 3. git issue 작성하기
 
 4. 새로운 브랜치 만들기
+```shell
+git switch -c [새 브랜치 명]
+```
 
 5. 자신이 부여된 코드 작성하기
 
 6. 자신이 새로만든 브랜치로 push 하기
+```shell
+git add [작업한 파일명]
+
+git commit
+
+git push origin [자신이 만든 브랜치 명]
+```
 
 7. organization repo에서 pull request하기
 
